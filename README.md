@@ -67,11 +67,11 @@ while(opne表不为空)｛
 > 追尾巴时走最远路径
 
 ![高级进阶版](http://ww2.sinaimg.cn/mw690/d6c09ed1gw1f3yyga5na0g205k05kkjn.gif)
-我们发现这条小蛇终于会绕弯走啦。。由于GIf软件录制不了那么长，我分了几个录制了，另外三个
+我们发现这条小蛇终于会绕弯走啦。。由于GIf软件录制不了那么长，我分了几个录制了，另外三个(卡顿是录制软件的问题)
 
 ![1]( http://ww1.sinaimg.cn/mw690/d6c09ed1gw1f3yyg7h2yog205k05k7wj.gif)![2](http://ww2.sinaimg.cn/mw690/d6c09ed1gw1f3yygcoggmg205k05kx6q.gif)![3](http://ww3.sinaimg.cn/mw690/d6c09ed1gw1f3yygdvpf3g205k05khdt.gif)
 通过最后一个结果可以看出，由于是随机产生的食物，还是有吃不到的时候，这时就只能优化食物的出现算法或调整寻路算法了。(想要吃满全图，可以一直走S路就可以了，不过这样没意思了)。
 ## 最后
 
 [博客地址](http://www.cnblogs.com/ganhang-acm/p/5503848.html)
-如果有需要优化的地方的话，我想可能BFS太慢了，还是直接全用A*或许能减少点CPU的压力，哈哈。
+如果有需要优化的地方的话，我想可能BFS太慢了，还是直接全用A*或许更好 。
